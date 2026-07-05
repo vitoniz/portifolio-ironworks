@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vitonizz — Portfólio de Landing Pages</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:#141414; color:#EDEAE2;
+    font-family:-apple-system,'Segoe UI',Inter,sans-serif;
+    min-height:100vh; display:flex; align-items:center; justify-content:center;
+    padding:40px 20px;
+  }
+  .wrap{max-width:820px; width:100%;}
+  .eyebrow{color:#E8B923; letter-spacing:0.14em; font-size:0.8rem; text-transform:uppercase; margin-bottom:16px;}
+  h1{font-size:clamp(1.8rem,4vw,2.6rem); margin-bottom:12px;}
+  p.lead{color:#9A9C9F; max-width:520px; margin-bottom:48px; font-size:1rem;}
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:20px;}
+  .card{
+    border:1px solid rgba(237,234,226,0.15); padding:32px 28px;
+    text-decoration:none; color:inherit; transition:border-color .2s, transform .2s;
+    display:block;
+  }
+  .card:hover{border-color:#E8B923; transform:translateY(-3px);}
+  .tag{font-size:0.72rem; color:#E8B923; text-transform:uppercase; letter-spacing:0.06em; margin-bottom:10px;}
+  .card h2{font-size:1.3rem; margin-bottom:10px;}
+  .card p{color:#9A9C9F; font-size:0.9rem; margin-bottom:18px;}
+  .card .link{font-size:0.85rem; text-decoration:underline; text-underline-offset:3px;}
+  footer{margin-top:56px; color:#666; font-size:0.8rem;}
+  @media(max-width:640px){ .grid{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Portfólio — Vitonizz</div>
+  <h1>Landing pages sob medida.</h1>
+  <p class="lead">Projetos de exemplo mostrando design e estrutura de landing page para diferentes nichos de negócio.</p>
+  <div class="grid">
+    <a class="card" href="landing_page_ironworks.html">
+      <div class="tag">Serviço / Fitness</div>
+      <h2>Ironworks</h2>
+      <p>Landing page para estúdio de treino de força, focada em conversão de novos alunos.</p>
+      <span class="link">Ver projeto →</span>
+    </a>
+    <a class="card" href="landing_page_numo_ecommerce.html">
+      <div class="tag">E-commerce</div>
+      <h2>Numo</h2>
+      <p>Landing page de e-commerce para marca de objetos de escritório, com foco em transparência de produto.</p>
+      <span class="link">Ver projeto →</span>
+    </a>
+  </div>
+  <footer>© Vitonizz · Disponível para novos projetos no Fiverr</footer>
+</div>
+</body>
+</html>
